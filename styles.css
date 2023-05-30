@@ -1,0 +1,89 @@
+.nav {
+    background-color: black;
+    height: 40px;
+    /* position: fixed; */
+}
+
+span {
+    float: right;
+    color: white;
+    margin: 20px;
+}
+
+.heading {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    display: inline-block;
+    font-family: 'Rowdies', cursive;
+}
+
+.main-pic {
+    position: relative;
+    left: 300px;
+    border-radius: 20%;
+    top: 70px;
+    height: 300px;
+    width: 300px;
+}
+
+.sectionOne {
+    background-color: blanchedalmond;
+    height: 500px;
+}
+
+.sectionTwo {
+    text-align: center;
+    background-color: peachpuff;
+    position: relative;
+    bottom: 20px;
+}
+
+.imagesTwo {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 20%;
+}
+
+.headingTwo {
+    font-family: 'Rowdies', cursive;
+    color: black;
+}
+
+.sectionThree {
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    background-color: bisque;
+}
+
+@media screen and (max-width:738px) and (min-width:590px) {
+    .main-pic {
+        display: block;
+        position: relative;
+        bottom: 50px;
+        height: 200px;
+        width: 200px;
+    }
+    .heading {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media screen and (max-width:590px) and (min-width:0px) {
+    .main-pic {
+        display: block;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        right: 200px;
+        top: 50px;
+    }
+    .heading {
+        position: relative;
+        right: 200px;
+        top: 20px;
+    }
+}
