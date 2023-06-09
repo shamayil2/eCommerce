@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="#" autocomplete="off" onsubmit="return validation()">
+
+            <label for="name">Enter Your Name</label><br>
+            <input class="one" type="text" name="" id="user" placeholder="user"><br>
+            <span id="userr" class="form-error"></span><br>
+            <label for="email">Enter Email</label><br>
+            <input class="two" type="email" id="email" placeholder="email"><br>
+            <span id="emaill" class="form-error"></span><br>
+            <label for="pass">Password</label><br>
+            <input class="three" type="password" id="pass" placeholder="password"><br>
+            <span id="passs" class="form-error"></span><br>
+            <label for="dob">Date Of Birth</label><br>
+            <input class="four" type="date" id="date"><br>
+            <span class="form-error"></span><br>
+            <label for="budget">Your Budget</label><br>
+            <input class="five" type="number" id="budget" placeholder="budget"><br>
+            <span id="budgett" class="form-error"></span><br>
+            <input class="two" type="submit" id="btn" placeholder=""><br>
+
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>

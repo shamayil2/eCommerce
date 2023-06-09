@@ -4,58 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Phones</title>
-    <style>
-        body {
-            background-color: lightblue;
-        }
-        
-        div img {
-            align-items: center;
-            height: 400px;
-            width: 400px;
-            margin: 20px;
-            border-radius: 20px;
-        }
-        
-        .one {
-            position: relative;
-            margin-left: 35%;
-        }
-        
-        .two {
-            position: relative;
-            margin-left: 35%;
-        }
-        
-        .three {
-            position: relative;
-            margin-left: 35%;
-        }
-        
-        @media screen and (max-width:750px) {
-            div img {
-                align-items: center;
-                height: 200px;
-                width: 200px;
-                margin: 20px;
-                border-radius: 20px;
-            }
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
 </head>
 
 <body>
-    <h1 style="font-weight: bolder; text-align: center;">OUR PRODUCTS</h1>
-    <section>
-        <div class="one"><img src="eCommerce\iphone.webp" alt=""></div>
-        <div class="two"><img src="eCommerce\nokia.jfif" alt=""></div>
-        <div class="three"><img src="eCommerce\samsung.webp" alt=""></div>
-    </section>
+    <main>
 
-    <footer>
-        <a style="font-weight: bolder;;" href="index.html">GO BACK TO HOME</a>
-    </footer>
+        <navbar>
+            <h1>Select Phones</h1>
+
+        </navbar>
+        <section>
+            <img class="one" src="eCommerce\iphone.webp" alt="">
+        </section>
+        <div class="detail">
+            <h1 class="iphoneH">This is Iphone 13 and its very special.</h1>
+        </div>
+
+        <footer>
+            <a class="link1" href="iphone.com">Click Here to Buy</a>
+        </footer>
+    </main>
+
+
+    <container>
+        <div class="sectionOne">
+            <img class="imgtwo" src="./eCommerce/nokia.jfif" alt="">
+        </div>
+
+        <div class="details1">
+            <h1 class="headTwo">This Is Nokia and Best</h1>
+        </div>
+
+        <div class="linkOne">
+            <a class="linkk" href="">Click Here To Buy</a>
+        </div>
+    </container>
+
+    <div class="container1">
+        <div class="child1">
+            <h1 class="head3">Third Phone</h1>
+        </div>
+        <div class="child2"><img class="samPic" src="./eCommerce/samsung.webp" alt=""></div>
+        <div class="child3">
+            <h1 class="details2">The Best ! Samsung!</h1>
+        </div>
+        <div class="child4">
+            <a href="" class="contact">Contact Us</a><br>
+            <a href="" class="contact">Give Feedback</a>
+        </div>
+
+
+    </div>
+
+
 </body>
 
 </html>

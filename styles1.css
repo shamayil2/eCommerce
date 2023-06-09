@@ -1,0 +1,158 @@
+main {
+    display: grid;
+    grid-template-areas: "navbar navbar navbar" "product product details" "footer footer footer";
+    grid-template-rows: 60px 500px 60px;
+    grid-template-columns: 700px 200px;
+}
+
+navbar {
+    grid-area: navbar;
+    background-color: black;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    grid-area: product;
+    background-color: bisque;
+}
+
+.detail {
+    background-color: blueviolet;
+    grid-area: details;
+}
+
+footer {
+    background-color: darkcyan;
+    grid-area: footer;
+}
+
+.one {
+    height: 450px;
+    width: 500px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.iphoneH {
+    position: relative;
+    top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.link1 {
+    position: relative;
+    left: 600px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link1:hover {
+    color: white;
+}
+
+container {
+    display: grid;
+    grid-template-areas: "section details details" "link link link";
+    grid-template-rows: 400px 200px;
+    grid-template-columns: 700px 800px;
+    background-color: darkkhaki;
+}
+
+.sectionOne {
+    grid-area: section;
+    background-color: blueviolet;
+}
+
+.details1 {
+    grid-area: details;
+    background-color: violet;
+}
+
+.imgtwo {
+    position: relative;
+    left: 90px;
+    top: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.headTwo {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.linkk {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linkk:hover {
+    color: white
+}
+
+.linkOne {
+    grid-area: link;
+    background-color: brown;
+    text-align: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas: "navbar1 navbar1 navbar1" "product details details" "footer1 footer1 footer1";
+    grid-template-rows: 100px 500px 300px;
+    grid-template-columns: 800px 200px;
+    background-color: cadetblue;
+}
+
+.child1 {
+    grid-area: navbar1;
+    background-color: grey;
+}
+
+.child2 {
+    grid-area: product;
+    background-color: tomato;
+}
+
+.child3 {
+    grid-area: details;
+    background-color: steelblue;
+}
+
+.child4 {
+    background-color: black;
+    grid-area: footer1;
+}
+
+.samPic {
+    position: relative;
+    left: 150px;
+    top: 40px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.details2 {
+    position: relative;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.contact {
+    font-size: 50px;
+    position: relative;
+    left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}

@@ -20,7 +20,7 @@ span {
 
 .main-pic {
     position: relative;
-    left: 300px;
+    left: 500px;
     border-radius: 20%;
     top: 70px;
     height: 300px;
@@ -30,13 +30,16 @@ span {
 .sectionOne {
     background-color: blanchedalmond;
     height: 500px;
+    position: relative;
+    bottom: 40px;
 }
 
 .sectionTwo {
     text-align: center;
     background-color: peachpuff;
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
+    padding: 30px;
 }
 
 .imagesTwo {
@@ -49,6 +52,7 @@ span {
 .headingTwo {
     font-family: 'Rowdies', cursive;
     color: black;
+    padding: 30px;
 }
 
 .sectionThree {
@@ -86,4 +90,34 @@ span {
         right: 200px;
         top: 20px;
     }
+}
+
+.khareedo {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.link {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linkk {
+    background-color: darksalmon;
+    padding: 30px;
+}
+
+.headingThree {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.brand {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 150px;
+    top: 200px;
 }
